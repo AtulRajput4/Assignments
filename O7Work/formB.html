@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container-fluid bg-dark">
+    <h2 class="text-center text-light fw-bold">Register</h2>
+    <p class="text-center text-light">Please Register if you want Access our Website</p>
+    <hr class="mb-4 text-light">
+
+    <form>
+      <div class="row mb-3">
+        <div class="col">
+          <label class="text-light">First name</label>
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <label class="text-light">Last name</label>
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="text-light">Username</label>
+        <input type="text" class="form-control" placeholder="Username">
+      </div>
+
+      <div class="mb-3">
+        <label class="text-light">Email</label>
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+
+      <div class="mb-3">
+        <label class="text-light">Mobile Number</label>
+        <input type="tel" class="form-control" placeholder="Enter 10 digit">
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <label class="text-light">City</label>
+          <input type="text" class="form-control" placeholder="City">
+        </div>
+        <div class="col-md-4">
+          <label class="text-light">State</label>
+          <select class="form-select">
+            <option selected>Choose...</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Haryana">Haryana</option>
+            <!-- Add more states as needed -->
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label class="text-light">Zip</label>
+          <input type="text" class="form-control" placeholder="Zip">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="text-light">Password</label>
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+
+      <div class="mb-3">
+        <label class="text-light">Confirm-Password</label>
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="terms">
+        <label class="form-check-label text-light" for="terms" >Agree to terms and conditions</label>
+      </div>
+
+      <div class="d-grid mb-3">
+        <button type="submit" class="btn btn-secondary" class="text-light">Register</button>
+      </div>
+
+      <p class="text-center text-light">Already have an account? <a href="#" class="text-info">Login</a></p>
+    </form>
+  </div>
+
+
+
+   <script src="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
